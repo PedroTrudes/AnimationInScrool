@@ -1,0 +1,77 @@
+.containerP00{
+    background-color: red;
+    height: 450px;
+}
+
+.containerP01{
+    background-color: antiquewhite;
+    height: 450px;
+
+}
+
+.containerP02{
+    background-color: aqua;
+    height: 450px;
+
+}
+
+.containerP03{
+    background-color: aquamarine;
+    height: 450px;
+
+}
+
+.containerP04{
+    background-color: beige;
+    height: 450px;
+
+}
+
+.containerP05{
+    background-color: black;
+    height: 450px;
+
+}
+
+.containerP06{
+    background-color: yellowgreen;
+    height: 450px;
+
+}
+
+.containerP07{
+    background-color: yellow;
+    height: 450px;
+
+}
+
+.containerP08{
+    background-color: violet;
+    height: 450px;
+
+}
+
+.containerP09{
+    background-color: turquoise;
+    height: 450px;
+
+}
+
+div{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.scrolando{
+    animation:slide-in-elliptic-top-fwd 1s cubic-bezier(.25,.46,.45,.94) both
+}
+
+@keyframes slide-in-elliptic-top-fwd{
+    0%{transform:translateY(-600px) rotateX(-30deg) scale(0);
+        transform-origin:50% 100%;
+        opacity:0}
+
+    100%{transform:translateY(0) rotateX(0) scale(1);
+    transform-origin:50% 1400px;
+    opacity:1}
+}
